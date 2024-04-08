@@ -5,7 +5,7 @@
 [rewrite_local]
 
 ^https:\/\/apiquling\.hengqifeng\.com\/(login\/gettoken|user\/getUserByToken|advertisement\/getAdvertisementStatus) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/quling.js
-^https?:\/\/.*\/userandaudio\/payAudio url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/quling.js
+^https?:\/\/.*\/userandaudio\/payAudio url script-response-body https://raw.githubusercontent.com/MrTlyer/js/main/quling.js
 
 
 [mitm]
