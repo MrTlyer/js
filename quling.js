@@ -4,7 +4,7 @@
 # 说明: 规则仅供体验请勿传播否则后果自负！规则随时可能失效，且用且珍惜！
 [rewrite_local]
 
-^https:\/\/apiquling\.hengqifeng\.com\/(login\/gettoken|user\/getUserByToken|advertisement\/getAdvertisementStatus) url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/quling.js
+^https:\/\/apiquling\.hengqifeng\.com\/(login\/gettoken|user\/getUserByToken|advertisement\/getAdvertisementStatus) url script-response-body https://raw.githubusercontent.com/MrTlyer/js/main/quling.js
 ^https?:\/\/.*\/userandaudio\/payAudio url script-response-body https://raw.githubusercontent.com/MrTlyer/js/main/quling.js
 
 
