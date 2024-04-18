@@ -1,4 +1,0 @@
-# 巴士管家去开屏广告
-^https:\/\/mobileapi\.chebada\.com\/publicv2\/api\/v001\/infodeliver\/getmerchantad url reject-dict
-
-hostname = mobileapi.chebada.com
