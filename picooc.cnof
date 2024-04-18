@@ -1,7 +1,7 @@
 # picooc去开屏广告
 # 版本号：4.11.3
 # 软件下载：https://apps.apple.com/cn/app/picooc-%E4%BD%A0%E7%9A%84%E5%81%A5%E5%BA%B7%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F%E9%A1%BE%E9%97%AE/id729928969
-# 脚本地址：https://raw.githubusercontent.com/MrTlyer/js/main/picooc.cnof
+# 脚本地址：https://p.ntnas.top/https://raw.githubusercontent.com/MrTlyer/js/main/picooc.cnof
 # 脚本作者：Mr.Tlyer
 # 更新时间：2024/4/18
 ^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad url reject-dict
