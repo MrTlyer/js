@@ -1,18 +1,15 @@
 /******************************
-
 脚本名称: Focus Video一解锁订阅
 下载地址：https://is.gd/vJ7Bfq
 软件版本：3.0.1
 脚本作者：ios-🐔神
 更新时间：2024-01-03
-TG频道群：https://t.me/iosapp520
-
 *******************************
 
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body http://gjds666.cf/quantumultx/fvideo.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/MrTlyer/js/main/fvideo.js
 
 [mitm] 
 
