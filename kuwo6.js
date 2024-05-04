@@ -14,7 +14,7 @@ USER-AGENT,KWPlayer,DIRECT
 
 
 [Script]
-http-response ^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openapi)?(/enc|/audi.tion|/v[\d]/(user/vip\?(vers|apiVersion|platform|op\=ui|_t)|theme\?op=gd|sysinfo\?op=getRePayAndDoPayBoxNew|api(/pay)?/((user/personal/)?user/info|payInfo/kwplayer/payMiniBar|advert/(myPage|iListen|album))|album/myRec/vipMusic)|/kuwopay/vip-tab/setting|/(audioApi/)?a\.p($|.*?ptype\=vip)|/(EcomResource|(Mobile)?Ad)Serv(er|ice)) script-path=https://napi.ltd/script/Worker/KuWo.js, requires-body=true, timeout=60, tag=酷我音乐 & 酷我畅听, img-url=https://file.napi.ltd/Static/Image/KuWo.png
+http-response ^(?!.*img).*?(kuwo\.cn|lrts\.me)(/vip|/openapi)?(/enc|/audi.tion|/v[\d]/(user/vip\?(vers|apiVersion|platform|op\=ui|_t)|theme\?op=gd|sysinfo\?op=getRePayAndDoPayBoxNew|api(/pay)?/((user/personal/)?user/info|payInfo/kwplayer/payMiniBar|advert/(myPage|iListen|album))|album/myRec/vipMusic)|/kuwopay/vip-tab/setting|/(audioApi/)?a\.p($|.*?ptype\=vip)|/(EcomResource|(Mobile)?Ad)Serv(er|ice)) script-path=https://raw.githubusercontent.com/MrTlyer/js/main/kuwo6.js, requires-body=true, timeout=60, tag=酷我音乐
 
 
 [Mitm]
