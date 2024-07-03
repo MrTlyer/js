@@ -73,7 +73,6 @@ HOST-SUFFIX, mall.icbc.com.cn, REJECT
 # 广告联盟
 HOST, adtracker.adfunlink.com, REJECT
 HOST, init.supersonicads.com, REJECT
-HOST, is.snssdk.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
 HOST, open.kuaishou.com, REJECT
 HOST, pagead2.googlesyndication-cn.com, REJECT
