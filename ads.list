@@ -70,32 +70,7 @@ HOST, amap-aos-info-nogw.amap.com, REJECT
 # 工商银行
 HOST, pageviewp.icbc.com.cn, REJECT
 HOST-SUFFIX, mall.icbc.com.cn, REJECT
-# 广告联盟
-HOST, adtracker.adfunlink.com, REJECT
-HOST, init.supersonicads.com, REJECT
-HOST, open.e.kuaishou.com, REJECT
-HOST, open.kuaishou.com, REJECT
-HOST, pagead2.googlesyndication-cn.com, REJECT
-HOST, pagead2.googlesyndication.com, REJECT
-HOST, ws.tapjoyads.com, REJECT
-HOST, www.googleadservices.com, REJECT
-HOST-SUFFIX, ads.linkedin.com, REJECT
-HOST-SUFFIX, ads.vungle.com, REJECT
-HOST-SUFFIX, adservice.google.com, REJECT
-HOST-SUFFIX, applovin.com, REJECT
-HOST-SUFFIX, applvn.com, REJECT
-HOST-SUFFIX, appsflyer.com, REJECT
-HOST-SUFFIX, appsflyersdk.com, REJECT
-HOST-SUFFIX, kuaishouzt.com, REJECT
-HOST-SUFFIX, miaozhen.com, REJECT
-HOST-SUFFIX, unityads.unity3d.com, REJECT
-HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
-HOST-KEYWORD, ads.g.doubleclick, REJECT
-HOST-KEYWORD, asiad.byteactivity, REJECT
-HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
-HOST-KEYWORD, pangolin.snssdk.com, REJECT
-HOST-KEYWORD, pglstatp-toutiao, REJECT
-HOST-KEYWORD, video-cn.snssdk.com, REJECT
+
 
 # ======= H ======= #
 # 海尔智家
