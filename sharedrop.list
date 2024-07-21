@@ -1,1 +1,7 @@
-
+# NAME: Sharedrop
+# UPDATED: 2024-07-21 13:16:11
+# HOST: 1
+# HOST-SUFFIX: 1
+# TOTAL: 2
+HOST,www.sharedrop.io,DIRECT
+HOST-SUFFIX,sharedrop.io,DIRECT
