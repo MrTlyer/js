@@ -485,7 +485,6 @@ HOST,lens.l.google.com,Global
 HOST,openaiapi-site.azureedge.net,Global
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Global
 HOST,openaicomproductionae4b.blob.core.windows.net,Global
-HOST,p16-tiktokcdn-com.akamaized.net,Global
 HOST,production-openaicom-storage.azureedge.net,Global
 HOST,testflight.apple.com,Global
 HOST,voice.telephony.goog,Global
@@ -12102,9 +12101,6 @@ HOST-SUFFIX,tidelift.com,Global
 HOST-SUFFIX,tiendabestbuy.com,Global
 HOST-SUFFIX,tiffany-towers.com,Global
 HOST-SUFFIX,tig-ol-bitties.live,Global
-HOST-SUFFIX,tiktokcdn-us.com,Global
-HOST-SUFFIX,tiktokcdn.com,Global
-HOST-SUFFIX,tiktokv.com,Global
 HOST-SUFFIX,timelinestoryteller.com,Global
 HOST-SUFFIX,timesmembership.com,Global
 HOST-SUFFIX,timestalks.com,Global
@@ -19109,7 +19105,6 @@ HOST-SUFFIX,tibetwrites.org,Global
 HOST-SUFFIX,ticket.com.tw,Global
 HOST-SUFFIX,tigervpn.com,Global
 HOST-SUFFIX,tik-tokapi.com,Global
-HOST-SUFFIX,tiktok.com,Global
 HOST-SUFFIX,tiltbrush.com,Global
 HOST-SUFFIX,timdir.com,Global
 HOST-SUFFIX,time.com,Global
@@ -20168,7 +20163,6 @@ HOST-KEYWORD,sci-hub,Global
 HOST-KEYWORD,skydrive,Global
 HOST-KEYWORD,spotify,Global
 HOST-KEYWORD,telegram,Global
-HOST-KEYWORD,tiktok,Global
 HOST-KEYWORD,ttvnw,Global
 HOST-KEYWORD,twitter,Global
 HOST-KEYWORD,uk-live,Global
@@ -20215,7 +20209,6 @@ USER-AGENT,Duolingo*,Global
 USER-AGENT,OneDrive*,Global
 USER-AGENT,PayPal*,Global
 USER-AGENT,Roam*,Global
-USER-AGENT,TikTok*,Global
 USER-AGENT,WhatsApp*,Global
 USER-AGENT,battleroyale*,Global
 USER-AGENT,com.apple.trustd*,Global
