@@ -518,4 +518,4 @@ hostname = member.alipan.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.co
 
 # > 南通地铁去开屏广告
 ^https:\/\/adapi\.pandabus\.cn:7800\/ad\/getAppStatus\/nantongditie url reject-dict
-^https:\/\/adapi\.pandabus\.cn:7800\/ad\/getAd\/v1\/nantongditie\/ios url reject-dict
+^https:\/\/adapi\.pandabus\.cn:7800\/ad\/.*\/nantongditie.* url reject-dict
