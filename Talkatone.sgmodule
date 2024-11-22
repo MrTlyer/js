@@ -20,7 +20,7 @@ DOMAIN-SUFFIX,appier.net,REJECT-DROP
 DOMAIN-SUFFIX,appiersig.com,REJECT-DROP
 
 # 以下为该软件需要走代理的规则
-#DOMAIN-SUFFIX,tktn.be,PROXY
+DOMAIN-SUFFIX,tktn.be,PROXY
 
 # 以下为该软件需要走直连的规则
 DOMAIN-SUFFIX,inner-active.mobi,DIRECT
