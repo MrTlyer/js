@@ -73,8 +73,13 @@ DOMAIN-SUFFIX,vst.c.appier.net,REJECT-DROP
 DOMAIN-SUFFIX,wv.inner-active.mobi,REJECT-DROP
 DOMAIN-SUFFIX,www.googletagservices-cn.com,REJECT-DROP
 
-# 以下为该软件需要走代理的规则
-#DOMAIN-SUFFIX,tktn.be,PROXY
+# 以下规则必须走代理
+DOMAIN-SUFFIX,tktn.at,PROXY
+DOMAIN-SUFFIX,tktn.be,PROXY
+# 语音留言地址，需要代理
+DOMAIN-SUFFIX,vm.talkatone.com,PROXY
+# 贴图服务
+DOMAIN-SUFFIX,tenor.com,PROXY
 
 # 以下为该软件需要走直连的规则
 DOMAIN-SUFFIX,inner-active.mobi,DIRECT
