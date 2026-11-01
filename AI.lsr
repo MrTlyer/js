@@ -1,0 +1,596 @@
+# 2026-10-07 22:40:50
+# OpenAI
+AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
+AND, ((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
+DOMAIN, chatgpt.livekit.cloud
+DOMAIN, host.livekit.cloud
+DOMAIN, openai.com.cdn.cloudflare.net
+DOMAIN, openaiapi-site.azureedge.net
+DOMAIN, openaicomproductionae4b.blob.core.windows.net
+DOMAIN, production-openaicom-storage.azureedge.net
+DOMAIN, turn.livekit.cloud
+DOMAIN, openaicom.imgix.net
+DOMAIN-SUFFIX, chat.com
+DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, crixet.com
+DOMAIN-SUFFIX, oaistatic.com
+# DOMAIN, persistent.oaistatic.com / 下载安装包
+DOMAIN-SUFFIX, oaiusercontent.com
+DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, sora.com
+DOMAIN-SUFFIX, chatgpt.site
+
+# Copilot
+DOMAIN, api.githubcopilot.com
+DOMAIN, copilot-proxy.githubusercontent.com
+DOMAIN, copilot.microsoft.com
+DOMAIN, sydney.bing.com
+DOMAIN, titles.prod.mos.microsoft.com
+
+# Github Copilot
+DOMAIN, api.githubcopilot.com
+
+# Github Models
+DOMAIN, models.inference.ai.azure.com
+
+# Gemini
+DOMAIN, ai.google.dev
+DOMAIN, aida.googleapis.com
+DOMAIN, aicode.googleapis.com
+DOMAIN, aistudio.google.com
+DOMAIN, alkalicore-pa.clients6.google.com
+DOMAIN, alkalimakersuite-pa.clients6.google.com
+DOMAIN, bard.google.com
+DOMAIN, deepmind.com
+DOMAIN, deepmind.google
+DOMAIN, geller-pa.googleapis.com
+DOMAIN, gemini.google
+DOMAIN, gemini.google.com
+DOMAIN, generativeai.google
+DOMAIN, generativelanguage.googleapis.com
+DOMAIN, makersuite.google.com
+DOMAIN, proactivebackend-pa.googleapis.com
+DOMAIN, robinfrontend-pa.googleapis.com
+DOMAIN, webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN, notebooklm.google
+DOMAIN, notebooklm.google.com
+DOMAIN, jules.google
+DOMAIN, jules.google.com
+DOMAIN, labs.google
+DOMAIN, aisandbox-pa.googleapis.com
+
+# Google Antigravity
+DOMAIN-SUFFIX, antigravity.google
+DOMAIN-SUFFIX, antigravity-unleash.goog
+DOMAIN, daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN, daily-cloudcode-pa.googleapis.com
+AND, ((DOMAIN-KEYWORD, antigravity-auto-updater-), (DOMAIN-SUFFIX, run.app))
+
+# Anthropic
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claude.com
+DOMAIN-SUFFIX, claudeusercontent.com
+IP-CIDR, 160.79.104.0/23, no-resolve
+IP-CIDR6, 2607:6bc0::/48, no-resolve
+
+# JetBrains AI
+DOMAIN-SUFFIX, grazie.ai
+DOMAIN-SUFFIX, grazie.aws.intellij.net
+DOMAIN-SUFFIX, jetbrains.ai
+
+# Mistral AI
+DOMAIN, chat.mistral.ai
+DOMAIN, console.mistral.ai
+DOMAIN-SUFFIX, mistral.ai
+
+# Grok AI
+DOMAIN, api.x.ai
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.com
+
+# Trae AI
+DOMAIN, trae-api-sg.mchost.guru
+DOMAIN-SUFFIX, trae.ai
+
+# TokenFlux
+DOMAIN-SUFFIX, tokenflux.ai
+
+# Groq
+DOMAIN-SUFFIX, groq.com
+
+# Together
+DOMAIN-SUFFIX, together.ai
+
+# Hyperbolic
+DOMAIN, api.hyperbolic.xyz
+DOMAIN-SUFFIX, hyperbolic.ai
+
+# Jina AI
+DOMAIN-SUFFIX, jina.ai
+
+# GPUStack
+DOMAIN-SUFFIX, gpustack.ai
+
+# VoyageAI
+DOMAIN-SUFFIX, voyageai.com
+
+# Vertex AI
+DOMAIN, aiplatform.googleapis.com
+
+# Cerebras AI
+DOMAIN-SUFFIX, cerebras.ai
+
+# Vercel AI
+DOMAIN, ai-gateway.vercel.sh
+
+# Kiro
+DOMAIN-SUFFIX, kiro.dev
+
+# Command Code
+DOMAIN-SUFFIX, commandcode.ai
+
+# TypeSafe AI
+DOMAIN-SUFFIX, typesafe.ai
+
+# Devin ai
+DOMAIN-SUFFIX, devin.ai
+
+# Zed AI/Delta AI
+DOMAIN, cdn.delta.dev
+DOMAIN, delta.zed.dev
+DOMAIN, api.zed.dev
+DOMAIN, zed-us-east-1-zed-production.c15t.dev
+DOMAIN, cloud.zed.dev
+
+# 302.AI
+DOMAIN, api.302.ai
+
+# Abacus
+DOMAIN, routellm.abacus.ai
+
+# abliteration.ai
+DOMAIN, api.abliteration.ai
+
+# above.dev
+DOMAIN, api.above.dev
+
+# AgentRouter
+DOMAIN, agentrouter.org
+
+# Agnes AI
+DOMAIN-SUFFIX, agnes-ai.com
+
+# ai&
+DOMAIN, api.aiand.com
+
+# AI-ROUTER
+DOMAIN, api.ai-router.dev
+
+# AI21 Labs
+DOMAIN, api.ai21.com
+
+# ainetcafe
+DOMAIN, microquickjs.com
+
+# Aixy
+DOMAIN, api.aixy-gateway.com
+
+# AKI.IO
+DOMAIN, aki.io
+
+# Alibaba - 阿里云国际
+DOMAIN, dashscope-intl.aliyuncs.com
+
+# Alibaba Coding Plan - 阿里云国际编程套餐
+DOMAIN, coding-intl.dashscope.aliyuncs.com
+
+# Alibaba Token Plan - 阿里云新加坡通义Token套餐
+DOMAIN, token-plan.ap-southeast-1.maas.aliyuncs.com
+
+# Ambient
+DOMAIN, api.ambient.xyz
+
+# AMD
+DOMAIN, developer.amd.com.cn
+
+# AnyAPI
+DOMAIN, api.anyapi.ai
+
+# Arcee
+DOMAIN, api.arcee.ai
+
+# Auriko
+DOMAIN, api.auriko.ai
+
+# Baseten
+DOMAIN, inference.baseten.co
+
+# Berget.AI
+DOMAIN, api.berget.ai
+
+# Blue Claw
+DOMAIN, openai.blueclaw.network
+
+# Bothub
+DOMAIN, openai.bothub.ru
+
+# Charm Hyper
+DOMAIN, hyper.charm.land
+
+# Chutes
+DOMAIN, llm.chutes.ai
+
+# Clarifai
+DOMAIN, api.clarifai.com
+
+# Claudinio
+DOMAIN, api.claudin.io
+
+# ClinePass
+DOMAIN-SUFFIX, cline.bot
+
+# CloudFerro Sherlock
+DOMAIN, api-sherlock.cloudferro.com
+
+# CoralBricks
+DOMAIN, inference.coralbricks.ai
+
+# CoreWeave
+DOMAIN, api.inference.wandb.ai
+
+# Cortecs
+DOMAIN, api.cortecs.ai
+
+# CrofAI
+DOMAIN, crof.ai
+
+# CrossModel
+DOMAIN, api.crossmodel.ai
+
+# Crusoe
+DOMAIN, api.inference.crusoecloud.com
+
+# DaoXE
+DOMAIN, daoxe.com
+
+# DevPass / LLM Gateway
+DOMAIN, api.llmgateway.io
+
+# DigitalOcean
+DOMAIN, inference.do-ai.run
+
+# DInference
+DOMAIN, api.dinference.com
+
+# Echo
+DOMAIN, echo.tracerml.ai
+
+# Eden AI
+DOMAIN, api.edenai.run
+
+# EmpirioLabs AI
+DOMAIN, api.empiriolabs.ai
+
+# evroc
+DOMAIN, models.think.evroc.com
+
+# FastRouter
+DOMAIN, go.fastrouter.ai
+
+# Fireworks AI
+DOMAIN-SUFFIX, fireworks.ai
+
+# FreeModel
+DOMAIN, cc.freemodel.dev
+
+# Friendli
+DOMAIN, api.friendli.ai
+
+# FrogBot
+DOMAIN, app.frogbot.ai
+
+# GitHub Copilot
+DOMAIN, api.githubcopilot.com
+
+# GMI Cloud
+DOMAIN, api.gmi-serving.com
+
+# GreenPT
+DOMAIN, api.greenpt.ai
+
+# Helicone
+DOMAIN, ai-gateway.helicone.ai
+
+# Hetzner
+DOMAIN, inference.hetzner.com
+
+# HPC-AI
+DOMAIN, api.hpc-ai.com
+
+# Hugging Face
+DOMAIN, router.huggingface.co
+
+# Impossibl
+DOMAIN, api.impossibl.com
+
+# Inception
+DOMAIN, api.inceptionlabs.ai
+
+# Inceptron
+DOMAIN, api.inceptron.io
+
+# Inco
+DOMAIN, api.inco.ai
+
+# Infer by Flow7
+DOMAIN, infer.flow7.org
+
+# Inference
+DOMAIN, inference.net
+
+# InferX
+DOMAIN, model.inferx.net
+
+# IO.NET
+DOMAIN, api.intelligence.io.solutions
+
+# IteraCompute
+DOMAIN, api.iteracompute.com
+
+# Jalapeno Cloud
+DOMAIN, api.jalapeno-cloud.ai
+
+# Kenari
+DOMAIN, kenari.id
+
+# Kilo Gateway
+DOMAIN, api.kilo.ai
+
+# klokintegration.se
+DOMAIN, api-gw.klok.ipaas.se
+
+# Kosmik Compute
+DOMAIN, api.koscompute.com
+
+# Lilac
+DOMAIN, api.getlilac.com
+
+# Llama
+DOMAIN, api.llama.com
+
+# LLM Tech
+DOMAIN, api.llmtech.eu
+
+# LLMTR
+DOMAIN, llmtr.com
+
+# LongCat
+DOMAIN, api.longcat.chat
+
+# LucidQuery
+DOMAIN, api.lucidquery.com
+
+# Meganova
+DOMAIN, api.meganova.ai
+
+# Melious
+DOMAIN, api.melious.ai
+
+# Merge Gateway
+DOMAIN, api-gateway.merge.dev
+
+# Meta
+DOMAIN, imagine.meta.com
+DOMAIN-SUFFIX, meta.ai
+
+# MiniMax国际
+DOMAIN-SUFFIX, minimax.io
+
+# Mixlayer
+DOMAIN, models.mixlayer.ai
+
+# Modal
+DOMAIN, inference.us-west.modal.direct
+
+# Model Oracle AI
+DOMAIN, api.modeloracle.com
+
+# Modelis
+DOMAIN, modelishub.com
+
+# Moonshot AI - 月之暗面国际
+DOMAIN, api.moonshot.ai
+
+# Kimi For Coding - 月之暗面Kimi国际
+DOMAIN, api.kimi.ai
+
+# Morph
+DOMAIN, api.morphllm.com
+
+# NaN
+DOMAIN, api.nan.builders
+
+# NanoGPT
+DOMAIN, nano-gpt.com
+
+# NEAR AI Cloud
+DOMAIN, cloud-api.near.ai
+
+# Nebius Token Factory
+DOMAIN, api.tokenfactory.nebius.com
+
+# NeoSmith
+DOMAIN, router.neosmith.ai
+
+# Neuralwatt
+DOMAIN, api.neuralwatt.com
+
+# Nova
+DOMAIN, api.nova.amazon.com
+
+# NovitaAI
+DOMAIN, api.novita.ai
+
+# Nvidia
+DOMAIN, integrate.api.nvidia.com
+
+# OCI Generative AI
+DOMAIN, inference.generativeai.us-chicago-1.oci.oraclecloud.com
+
+# Ofox
+DOMAIN, api.ofox.ai
+
+# Ollama Cloud
+DOMAIN-SUFFIX, ollama.com
+
+# OpenCode Go、OpenCode Zen
+DOMAIN-SUFFIX, opencode.ai
+
+# OpenReason
+DOMAIN, api.openreason.app
+
+# OpenRouter
+DOMAIN-SUFFIX, openrouter.ai
+
+# Opper
+DOMAIN, api.opper.ai
+
+# OrcaRouter
+DOMAIN, api.orcarouter.ai
+
+# OVHcloud AI Endpoints
+DOMAIN, oai.endpoints.kepler.ai.cloud.ovh.net
+
+# Pendra
+DOMAIN, api.pendra.ai
+
+# Perplexity
+DOMAIN, pplx-res.cloudinary.com
+DOMAIN-SUFFIX, pplx.ai
+DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX, perplexity.com
+
+# Pioneer
+DOMAIN, api.pioneer.ai
+
+# Poe
+DOMAIN-SUFFIX, poe.com
+
+# Poolside
+DOMAIN, inference.poolside.ai
+
+# Regolo AI
+DOMAIN, api.regolo.ai
+
+# Requesty
+DOMAIN, router.requesty.ai
+
+# routing.run
+DOMAIN, api.routing.run
+
+# RunInfra
+DOMAIN, api.runinfra.ai
+
+# Sakana AI
+DOMAIN, api.sakana.ai
+
+# Sarvam AI
+DOMAIN, api.sarvam.ai
+
+# Scaleway
+DOMAIN, api.scaleway.ai
+
+# SCX.ai
+DOMAIN, api.scx.ai
+
+# SiliconFlow - 硅基流动国际
+DOMAIN, api.siliconflow.com
+
+# STACKIT
+DOMAIN, api.openai-compat.model-serving.eu01.onstackit.cloud
+
+# Standard Compute
+DOMAIN, api.stdcmpt.com
+
+# StepFun - 阶跃星辰国际
+DOMAIN, api.stepfun.ai
+
+# Subconscious
+DOMAIN, api.subconscious.dev
+
+# submodel
+DOMAIN, llm.submodel.ai
+
+# Synthetic
+DOMAIN, api.synthetic.new
+
+# Tempr
+DOMAIN, api.temprhq.io
+
+# TensorX
+DOMAIN, api.tensorx.ai
+
+# The Grid AI
+DOMAIN, api.thegrid.ai
+
+# Thinking Machines
+DOMAIN, tinker.thinkingmachines.dev
+
+# Tinfoil
+DOMAIN, inference.tinfoil.sh
+
+# TokenGo
+DOMAIN, api.tokengo.com
+
+# TokenRouter
+DOMAIN, api.tokenrouter.com
+
+# TrustedRouter
+DOMAIN, api.trustedrouter.com
+
+# Umans AI、Umans AI Coding Plan
+DOMAIN, api.code.umans.ai
+
+# UnoRouter
+DOMAIN, api.unorouter.com
+
+# Upstage
+DOMAIN, api.upstage.ai
+
+# Vancine
+DOMAIN, vancine.com
+
+# Vispark
+DOMAIN, api.lab.vispark.in
+
+# Vivgrid
+DOMAIN, api.vivgrid.com
+
+# Vultr
+DOMAIN, api.vultrinference.com
+
+# Wafer
+DOMAIN, pass.wafer.ai
+
+# Wallaby
+DOMAIN, api.wallabytoken.com
+
+# Xiaomi Token Plan - 小米国际
+DOMAIN, token-plan-sgp.xiaomimimo.com
+DOMAIN, token-plan-ams.xiaomimimo.com
+
+# Xpersona
+DOMAIN, xpersona.co
+
+# Z.AI - 智谱国际
+DOMAIN-SUFFIX, z.ai
+
+# Zeldoc
+DOMAIN, api.zeldoc.ai
+
+# Zenifra
+DOMAIN, ai.zenifra.com
+
+# ZenMux
+DOMAIN, zenmux.ai
