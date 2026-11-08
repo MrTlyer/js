@@ -2,8 +2,8 @@
 #!desc=秒解析去广告/解锁
 #!author=MrTlyer
 
-[Rewrite]
-response if ${url} ~= /^https?:\/\/tcb-api\.tencentcloudapi\.com\/web/i then script("https://raw.githubusercontent.com/MrTlyer/js/main/miaojiexi.js") with tag="miaojiexi", timeout=60, requires_body=true
+[Script]
+response if ${url} ~= /^https?:\/\/tcb-api\.tencentcloudapi\.com\/web/i then script("https://raw.githubusercontent.com/MrTlyer/js/refs/heads/main/miaojiexi.js") with tag="miaojiexi", timeout=60, requires_body=true
 
 [MITM]
 hostname = %APPEND% tcb-api.tencentcloudapi.com
