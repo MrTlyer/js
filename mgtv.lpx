@@ -1,12 +1,12 @@
+#!name = 芒果TV
+#!desc = 芒果TV视频请求处理
+#!author = MrTlyer
+#!loon_version = 3.5.1(983)
 
-#!name=芒果TV
-#!desc=Vip+会员画质+去广告、页面优化
-#!author=MrTlyer
-
-[Rewrite]
+[Script]
 response if ${url} ~= /^https?:\/\/.*mgtv\.com.*(GetUserInfo|module\/list\?_support|app\/bdboot|pullReleaseInfo|floor\/detail|video\/source|entry\?_support).*$/i then script("https://raw.githubusercontent.com/MrTlyer/js/refs/heads/main/mgtv.js") with tag="mgtv", timeout=60, requires_body=true
+
 request if ${url} ~= /^https?:\/\/mobile-stream\.api\.mgtv\.com\/v1\/video\/source\?/i then script("https://raw.githubusercontent.com/MrTlyer/js/refs/heads/main/mgtk.js") with tag="mgtk", timeout=60
-if ${url} ~= /^https?:\/\/mobile\.da\.mgtv\.com\/m\/page/i then reject()
 
 [MITM]
-hostname = *.mgtv.com,hb-boom.api.mgtv.com,*.api.mgtv.com,mobile-stream.api.mgtv.com,nuc.api.mgtv.com,111.31.104.108,111.31.104.*,111.31.104.96,iphone.v0.mgtv.com,api.data.mgtv.com
+hostname = mgtv.com, *.mgtv.com
