@@ -1,0 +1,21 @@
+#!name=spotify-qx
+#!desc=spotify-qx
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1012.png
+
+[Script]
+# Remove conditional-cache headers so patched configuration is fetched again.
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js, timeout=60, tag=spotify-qx-header
+
+http-request ^https:\/\/(?:spclient\.wg|[\w-]+-spclient)\.spotify\.com(?::443)?\/(?:remote-config-resolver\/v\d+\/configuration|nebula\/v\d+\/configuration\/attributes)(?:\?[^#]*)?$ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js, timeout=60, tag=spotify-qx-header
+
+# Legacy responses plus app 9.1.98+ remote configuration and account attributes.
+http-response ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(?:bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)(?:\?.*)?$ script-path=https://raw.githubusercontent.com/Auto-001/QX---/refs/heads/main/spotify-qx.js, requires-body=true, binary-body-mode=true, timeout=60, tag=spotify-qx
+
+http-response ^https:\/\/(?:spclient\.wg|[\w-]+-spclient)\.spotify\.com(?::443)?\/(?:remote-config-resolver\/v\d+\/configuration|nebula\/v\d+\/configuration\/attributes)(?:\?[^#]*)?$ script-path=https://raw.githubusercontent.com/Auto-001/QX---/refs/heads/main/spotify-qx.js, requires-body=true, binary-body-mode=true, timeout=60, tag=spotify-qx
+
+# Existing app2smile artist and album display fix.
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js, timeout=60, tag=spotify-json
+
+[MITM]
+hostname = spclient.wg.spotify.com, *spclient.spotify.com
+
