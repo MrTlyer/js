@@ -594,3 +594,11 @@ DOMAIN, ai.zenifra.com
 
 # ZenMux
 DOMAIN, zenmux.ai
+
+# muse
+DOMAIN, production.museai.com
+DOMAIN-SUFFIX, museai.com
+DOMAIN-SUFFIX, muse.ai
+DOMAIN, meta-ohttp-config-prod.fastly-edge.com
+DOMAIN, meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN-SUFFIX, ecto1.ai
